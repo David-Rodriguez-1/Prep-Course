@@ -105,7 +105,6 @@ function sortArray(arr) {
         arr[i] = menos
       }
     }
-    
   }
   return arr
 }
@@ -123,7 +122,6 @@ function buscoInterseccion(arreglo1, arreglo2){
       if(arreglo1[i] === arreglo2[j]) {
         nuevoArreglo.push(arreglo1[i])
       }
-      
     }    
   }
   return nuevoArreglo;
